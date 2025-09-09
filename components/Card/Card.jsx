@@ -2,10 +2,6 @@ import { useState } from "react";
 import "./card.scss";
 
 export default function Card() {
-  localStorage.setItem("cards", JSON.stringify([{ title: "Test", img: "" }]));
-  const cards = JSON.parse(localStorage.getItem("cards"));
-  console.log(cards);
-
   
 
   return (
