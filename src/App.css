@@ -1,0 +1,17 @@
+.main-grid {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 250px;
+  grid-template-rows: 80px;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "menu search-area search-area search-area"
+    "menu main-section main-section main-section"
+    "menu main-section main-section main-section"
+    "menu main-section main-section main-section";
+}
+
+.main-grid > .menu { grid-area: menu; }
+.main-grid > .main-section { grid-area: main-section; }
+.main-grid > .search-area { grid-area: search-area; }
