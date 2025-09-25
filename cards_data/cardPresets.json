@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Kobeni",
+    "surname": "Higashiyama",
+    "tags": "CSM",
+    "img": "./images/kobeni.png"
+  },
+
+  {
+    "name": "Bob",
+    "surname": "Smartass",
+    "tags": "male",
+    "img": "#"
+  },
+
+  {
+    "name": "Robin",
+    "surname": "Woodster",
+    "tags": "female",
+    "img": "#"
+  }
+]

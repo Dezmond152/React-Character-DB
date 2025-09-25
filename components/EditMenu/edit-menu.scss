@@ -1,8 +1,13 @@
 .edit-menu {
   width: 650px;
   height: 750px;
-  background-color: rgb(92, 92, 92);
+  background: linear-gradient(
+    180deg, 
+    rgb(102, 102, 102) 0%,   
+    rgb(82, 82, 82) 100%     
+  );
   border-radius: 20px;
+  
 
   .edit-menu-wrap {
     width: 100%;
@@ -67,7 +72,7 @@
 
             border-radius: 20px;
             background-color: rgb(70, 69, 69);
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             box-sizing: border-box;
             align-items: center;
             border: 3px solid rgb(179, 177, 177);
@@ -108,5 +113,17 @@
         cursor: pointer;
       }
     }
+  }
+
+
+  animation: scale-in 0.2s ease forwards;
+}
+
+@keyframes scale-in {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1);
   }
 }

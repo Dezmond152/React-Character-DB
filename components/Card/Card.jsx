@@ -16,6 +16,7 @@ export default function Card() {
 
         <div className="card-back">
           <div className="back-nav-wrap">
+            <button>Info</button>
             <button>Edit</button>
             <button>Export</button>
             <button>Delete</button>
