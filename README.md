@@ -1,4 +1,4 @@
-# Character Database
+# Character Database (PENDING)
 
 A simple **React** project that serves as a database for characters.  
 It allows writers and creators to store character cards with basic details in a clean and minimal interface.  
